@@ -1,6 +1,6 @@
-# Internet-of-Things Privacy and Security: Citizen Tracking in Public Spaces
-(This is an ongoing project in pilot phase, and as we move forward more content and code will be pushed in).
+## Note - This is an ongoing project in pilot phase, and beacon data is being collected on a server which will be made public after project completion. 
 
+# Internet-of-Things Privacy and Security: Citizen Tracking in Public Spaces
 Most businesses track consumers for user engagement and marketing, yet don’t explicitly say so. 
 
 While some forms of consumer tracking such as surveillance cameras and tracking cookies are widely known, many of us are unaware that enterprises use additional, obscure technologies and third party apps to track their consumers in private and public spaces without their knowledge or apparent consent. This raises privacy concerns as little is known about the extent of such data collection, the technologies used and the use of the data. 
