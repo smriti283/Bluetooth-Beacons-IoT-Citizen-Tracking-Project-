@@ -1,6 +1,8 @@
 # Internet-of-Things Privacy and Security: Citizen Tracking in Public Spaces
 
-Most businesses track consumers for user engagement and marketing, yet don’t explicitly say so. While some forms of consumer tracking such as surveillance cameras and tracking cookies are widely known, many of us are unaware that enterprises use additional, obscure technologies and third party apps to track their consumers in private and public spaces without their knowledge or apparent consent. This raises privacy concerns as little is known about the extent of such data collection, the technologies used and the use of the data. 
+Most businesses track consumers for user engagement and marketing, yet don’t explicitly say so. 
+
+While some forms of consumer tracking such as surveillance cameras and tracking cookies are widely known, many of us are unaware that enterprises use additional, obscure technologies and third party apps to track their consumers in private and public spaces without their knowledge or apparent consent. This raises privacy concerns as little is known about the extent of such data collection, the technologies used and the use of the data. 
 
 This work focuses on researching and investigating consumer tracking in public spaces through the use of one such technology - Bluetooth Beacons, that are now widely employed by retail enterprises but remain unknown and undetectable to the general public. 
 
