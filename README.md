@@ -1,4 +1,5 @@
 # Internet-of-Things Privacy and Security: Citizen Tracking in Public Spaces
+(This is an ongoing project in pilot phase, and as we move forward more content and code will be pushed in).
 
 Most businesses track consumers for user engagement and marketing, yet don’t explicitly say so. 
 
