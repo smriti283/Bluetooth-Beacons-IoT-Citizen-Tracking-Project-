@@ -120,10 +120,19 @@ The visualization can be found here:[Census Tract level Beacon Distribution usin
 The interactive visualization can be found here:[Beacon Mapping using Google Maps JavaScript API](https://nbviewer.org/github/claugomzz/iot-capstone/blob/main/Visualization/IoT_Google%20API%20map.html)
 
 
-Additionally, reverse-geocoding was performed on the complete dataset using Nominatim by OpenStreetMaps.org, to help draw approximate street level insights on location of beacons. By looking up retail stores found on these streets on Google Maps, it may be possible to identify the potential retailers where the beacon signals generated from. 
+Additionally, reverse-geocoding was performed on the complete dataset using Nominatim by OpenStreetMaps.org, to help draw approximate street level insights on location of beacons. By looking up retail stores found on these streets on Google Maps, it may be possible to identify the potential retailers where the beacon signals generated from. An example result of UUIDs along with broad level reverse-geocoding results are given in the table below. While the total count of Omni Access Stellar beacons from Alcatel Lucent is 168, as an example we show a distribution of 56 of these beacons in 5 locations with their addresses, and list some potential retailers in the vicinity that may house these devices.
 
 
-An example result of UUIDs along with broad level reverse-geocoding results are given in the table below. While the total count of Omni Access Stellar beacons from Alcatel Lucent is 168, as an example we show a distribution of 56 of these beacons in 5 locations with their addresses, and list some potential retailers in the vicinity that may house these devices.
+<img width="700" alt="Screen Shot 2023-02-14 at 5 01 05 AM" src="https://user-images.githubusercontent.com/78453405/218746437-b617a4f1-dc70-42f2-aa0e-284f996dfe60.png">
 
 
+## Final Observations and Conclusions
+
+From our research within a small area of Manhattan and Brooklyn, we have found evidence of thousands of beacons in place that continuously communicate with our bluetooth enabled devices as we walk past them. On average, a person is hit with 136 beacon signals per minute while walking in retail-centric areas of Manhattan and Brooklyn. The overall average density of beacons across is ~ 80 beacons per census tract. On average 4 beacons were detected per minute, and given the flexibility and affordability of this technology the density will only increase in the future. However, if you were to ask a New Yorker whether they are aware of these devices communicating with their phones, most would be unaware of this ever-present technology in their city. 
+
+
+Further analysis needs to be done on the data collection by beacons and its usage in the physical world. From the manufacturers webpages as well as literature review we have gathered that most companies use data collected from the apps that communicate with beacons to increase their sales and ultimately increase their revenues. However, these earnings come at the expense of our personal information. Although BLE beacon technology has been used to improve processes across various industries, there are no real laws or framework regulating their use. Presently, most companies also don’t divulge how they collect, use and analyze the information they collect from apps. 
+
+
+With the knowledge of beacon technology, its capabilities and the findings from our study, the City residents and consumers in Manhattan and Brooklyn have an obvious reason for concern about invasion of privacy and potential misuse of their personal data. Thus, our findings present a case for a more transformative, legitimate and transparent approach to the use of beacons in people tracking and data sharing. 
 
