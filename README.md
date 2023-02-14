@@ -103,10 +103,13 @@ The visualization can be found here:[Census Tract level Beacon Distribution usin
 <img width="785" alt="Screen Shot 2023-02-14 at 2 32 11 AM" src="https://user-images.githubusercontent.com/78453405/218710689-2e2b3a3f-2fd9-417a-8bf5-49cf888a7fbd.png">
 
 
+
 #### Beacon mapping on street level
 
 
+
 <img width="679" alt="Screen Shot 2023-02-14 at 2 39 52 AM" src="https://user-images.githubusercontent.com/78453405/218713643-3642c578-4361-41f8-8d06-4c4286ec4027.png">
+
 
 
 - Grey points display where we walked, Red markers display beacon detections. 
@@ -114,7 +117,7 @@ The visualization can be found here:[Census Tract level Beacon Distribution usin
 - Ex: Alcatel Lucent (Omni Access Stellar) found in 42nd St, Herald Square Broadway, 33rd St, W 37th St., etc. 
 - Some potential retailers: Duane Reade, CVS, Zara, Banana Republic, Starbucks, AT&T Store, Foot Locker etc.
 
-*For study purposes, we have chosen to report only street level addresses to account for approximation in beacon detection and to maintain privacy.
+*For study purposes, we have chosen to report only street level addresses to account for approximation in beacon detection and to maintain privacy.*
 
 
 The interactive visualization can be found here:[Beacon Mapping using Google Maps JavaScript API](https://nbviewer.org/github/claugomzz/iot-capstone/blob/main/Visualization/IoT_Google%20API%20map.html)
@@ -126,7 +129,9 @@ Additionally, reverse-geocoding was performed on the complete dataset using Nomi
 <img width="700" alt="Screen Shot 2023-02-14 at 5 01 05 AM" src="https://user-images.githubusercontent.com/78453405/218746437-b617a4f1-dc70-42f2-aa0e-284f996dfe60.png">
 
 
+
 ## Final Observations and Conclusions
+
 
 From our research within a small area of Manhattan and Brooklyn, we have found evidence of thousands of beacons in place that continuously communicate with our bluetooth enabled devices as we walk past them. On average, a person is hit with 136 beacon signals per minute while walking in retail-centric areas of Manhattan and Brooklyn. The overall average density of beacons across is ~ 80 beacons per census tract. On average 4 beacons were detected per minute, and given the flexibility and affordability of this technology the density will only increase in the future. However, if you were to ask a New Yorker whether they are aware of these devices communicating with their phones, most would be unaware of this ever-present technology in their city. 
 
