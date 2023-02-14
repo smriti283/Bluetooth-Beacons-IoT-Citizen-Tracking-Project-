@@ -78,7 +78,7 @@ To communicate the findings, we used several tools to build effective visualizat
 
 #### Beacon Activity Distribution
 
-![activity](<img width="849" alt="Screen Shot 2023-02-14 at 2 22 15 AM" src="https://user-images.githubusercontent.com/78453405/218707888-ed9af20c-f118-4ec1-8515-2450c218e8d5.png">)
+!(<img width="849" alt="Screen Shot 2023-02-14 at 2 22 15 AM" src="https://user-images.githubusercontent.com/78453405/218707888-ed9af20c-f118-4ec1-8515-2450c218e8d5.png">)
 
 [Beacon Mapping using Google Maps JavaScript API](https://nbviewer.org/github/claugomzz/iot-capstone/blob/main/Visualization/IoT_Google%20API%20map.html)
 [Geographical Distribution and Nos. of Beacons using D3.js, Plotly JS and Mapbox](https://mlab.engineering.nyu.edu/beacon/iot-capstone/Visualization/Final_Capstone.html)
