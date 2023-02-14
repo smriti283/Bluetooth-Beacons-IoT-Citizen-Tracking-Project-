@@ -117,7 +117,7 @@ The visualization can be found here:[Census Tract level Beacon Distribution usin
 - Ex: Alcatel Lucent (Omni Access Stellar) found in 42nd St, Herald Square Broadway, 33rd St, W 37th St., etc. 
 - Some potential retailers: Duane Reade, CVS, Zara, Banana Republic, Starbucks, AT&T Store, Foot Locker etc.
 
-* *For study purposes, we have chosen to report only street level addresses to account for approximation in beacon detection and to maintain privacy.*
+*For study purposes, we have chosen to report only street level addresses to account for approximation in beacon detection and to maintain privacy.
 
 
 The interactive visualization can be found here:[Beacon Mapping using Google Maps JavaScript API](https://nbviewer.org/github/claugomzz/iot-capstone/blob/main/Visualization/IoT_Google%20API%20map.html)
