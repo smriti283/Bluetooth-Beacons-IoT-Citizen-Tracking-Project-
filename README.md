@@ -86,8 +86,24 @@ To communicate the findings, we used several tools to build effective visualizat
 #### Device Distribution
 
 
+<img width="909" alt="Screen Shot 2023-02-14 at 2 26 22 AM" src="https://user-images.githubusercontent.com/78453405/218708869-98640803-6462-4117-bce7-ffc6bd67c9dd.png">
+
+The visualization can be found here:[Census Tract level Beacon Distribution using Tableau Dashboard](https://public.tableau.com/app/profile/gexinliu/viz/CensusAgg/1_1?publish=yes)
+
+#### Distribution by UUIDs at census tract level
+
+
+- 13 unique Identifiers matched to manufacturers. 
+- Some identified companies are Glimworm, Apple Air Locate, Motorola MPact, HP (Aruba Networks), etc.
+- Eddystone beacon with UID “0xb2e5fc49d46042b9893c” found in highest numbers, but concentrated in Financial District and Midtown. Manufacturer unidentified. 
+- Glimworm beacons seems to more evenly spread out.
+
+
+
+
+The interactive visualization can be found here: 
+[Geographical Distribution and Nos. of Beacons using D3.js, Plotly JS and Mapbox](https://mlab.engineering.nyu.edu/beacon/iot-capstone/Visualization/Final_Capstone.html)
 
 [Beacon Mapping using Google Maps JavaScript API](https://nbviewer.org/github/claugomzz/iot-capstone/blob/main/Visualization/IoT_Google%20API%20map.html)
-[Geographical Distribution and Nos. of Beacons using D3.js, Plotly JS and Mapbox](https://mlab.engineering.nyu.edu/beacon/iot-capstone/Visualization/Final_Capstone.html)
-[Census Tract level Beacon Distribution using Tableau Dashboard](https://public.tableau.com/app/profile/gexinliu/viz/CensusAgg/1_1?publish=yes)
+
 
