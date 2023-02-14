@@ -106,7 +106,7 @@ The visualization can be found here:[Census Tract level Beacon Distribution usin
 #### Beacon mapping on street level
 
 
-
+<img width="679" alt="Screen Shot 2023-02-14 at 2 39 52 AM" src="https://user-images.githubusercontent.com/78453405/218713643-3642c578-4361-41f8-8d06-4c4286ec4027.png">
 
 
 - Grey points display where we walked, Red markers display beacon detections. 
@@ -116,6 +116,14 @@ The visualization can be found here:[Census Tract level Beacon Distribution usin
 
 *For study purposes, we have chosen to report only street level addresses to account for approximation in beacon detection and to maintain privacy.
 
+
 The interactive visualization can be found here:[Beacon Mapping using Google Maps JavaScript API](https://nbviewer.org/github/claugomzz/iot-capstone/blob/main/Visualization/IoT_Google%20API%20map.html)
+
+
+Additionally, reverse-geocoding was performed on the complete dataset using Nominatim by OpenStreetMaps.org, to help draw approximate street level insights on location of beacons. By looking up retail stores found on these streets on Google Maps, it may be possible to identify the potential retailers where the beacon signals generated from. 
+
+
+An example result of UUIDs along with broad level reverse-geocoding results are given in the table below. While the total count of Omni Access Stellar beacons from Alcatel Lucent is 168, as an example we show a distribution of 56 of these beacons in 5 locations with their addresses, and list some potential retailers in the vicinity that may house these devices.
+
 
 
