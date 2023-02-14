@@ -90,6 +90,7 @@ To communicate the findings, we used several tools to build effective visualizat
 
 The visualization can be found here:[Census Tract level Beacon Distribution using Tableau Dashboard](https://public.tableau.com/app/profile/gexinliu/viz/CensusAgg/1_1?publish=yes)
 
+
 #### Distribution by UUIDs at census tract level
 
 
@@ -99,11 +100,22 @@ The visualization can be found here:[Census Tract level Beacon Distribution usin
 - Glimworm beacons seems to more evenly spread out.
 
 
+<img width="785" alt="Screen Shot 2023-02-14 at 2 32 11 AM" src="https://user-images.githubusercontent.com/78453405/218710689-2e2b3a3f-2fd9-417a-8bf5-49cf888a7fbd.png">
 
 
-The interactive visualization can be found here: 
-[Geographical Distribution and Nos. of Beacons using D3.js, Plotly JS and Mapbox](https://mlab.engineering.nyu.edu/beacon/iot-capstone/Visualization/Final_Capstone.html)
+#### Beacon mapping on street level
 
-[Beacon Mapping using Google Maps JavaScript API](https://nbviewer.org/github/claugomzz/iot-capstone/blob/main/Visualization/IoT_Google%20API%20map.html)
+
+
+
+
+- Grey points display where we walked, Red markers display beacon detections. 
+- Reverse Geocoding on detections reveal approximate addresses*. 
+- Ex: Alcatel Lucent (Omni Access Stellar) found in 42nd St, Herald Square Broadway, 33rd St, W 37th St., etc. 
+- Some potential retailers: Duane Reade, CVS, Zara, Banana Republic, Starbucks, AT&T Store, Foot Locker etc.
+
+*For study purposes, we have chosen to report only street level addresses to account for approximation in beacon detection and to maintain privacy.
+
+The interactive visualization can be found here:[Beacon Mapping using Google Maps JavaScript API](https://nbviewer.org/github/claugomzz/iot-capstone/blob/main/Visualization/IoT_Google%20API%20map.html)
 
 
