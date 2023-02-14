@@ -2,9 +2,7 @@
 
 ## Overview
 
-Most businesses track consumers for user engagement and marketing purposes, yet don’t explicitly state so. 
-
-While some forms of consumer tracking such as surveillance cameras and tracking cookies are widely known, many of us are unaware that companies use additional, obscure technologies and third party apps to track consumers in private and public spaces without their knowledge or full consent. This raises privacy concerns, since little is known about the extent of this data collection, such as the technologies utilized and the use of the data. 
+Most businesses track consumers for user engagement and marketing purposes, yet don’t explicitly state so. While some forms of consumer tracking such as surveillance cameras and tracking cookies are widely known, many of us are unaware that companies use additional, obscure technologies and third party apps to track consumers in private and public spaces without their knowledge or full consent. This raises privacy concerns, since little is known about the extent of this data collection, such as the technologies utilized and the use of the data. 
 
 This project focuses on investigating consumer tracking in public spaces through the use of one such covert technology - Bluetooth Beacons, that is now widely employed by location tracking companies, but remains largely unknown and undetectable to the general public. By gaining a firm understanding of the technology and using Android based apps for beacon detection, we aim to build a beacon location database for two retail-centric boroughs in New York City- Manhattan and Brooklyn; in order to draw insights on the participating companies and the third party vendors involved. With this work we intend to raise awareness regarding consumer tracking to eventually inform and push for reforms in data-sharing regulations and data privacy laws that ensure transparency, and ensure a legitimate purpose for the data collection processes. 
 
@@ -50,10 +48,7 @@ Our research revealed that beacons do not engage in data collection or sharing b
 
 While step 1 was in progress, we parallelly tested out several methods to ensure successful data capture, often undergoing several iterations to find solutions to the problems encountered. Before we could begin full-scale dataset building, we carried out a pilot data collection exercise in New York City.
 
-We used the existing open-source Android based app called 'Beacon Scanner' by Nicolas Bridoux, which scans for nearby beacon signals and logs Beacon UUID, major, minor, user-proximity and timestamp. To test this, we walked around three neighborhoods in NYC with retail stores concentration to scan for beacon signals in public spaces.
-
-The geographic locations of scanning sites and times of scans were manually logged on an excel spreadsheet, along with stores in the vicinity. 
-The data from the Beacon Scanner app is logged into a data-collection server in real time, which was built by our sponsor.
+We used the existing open-source Android based app called 'Beacon Scanner' by Nicolas Bridoux, which scans for nearby beacon signals and logs Beacon UUID, major, minor, user-proximity and timestamp. To test this, we walked around three neighborhoods in NYC with retail stores concentration to scan for beacon signals in public spaces. The geographic locations of scanning sites and times of scans were manually logged on an excel spreadsheet, along with stores in the vicinity. The data from the Beacon Scanner app is logged into a data-collection server in real time, which was built by our sponsor.
 
 Through this exercise, in a total of 72 minutes of scanning, we were able to build a dataset of 6513 records. 80 unique UUIDs were captured across the dataset. Moreover, based on the timestamps in the dataset and location mapping chart of data collection, we were able to identify the potential retailers that house 9 such detected beacons. 
 
@@ -69,5 +64,22 @@ In a total of 2555 minutes of data collection and using three Android phones, th
 
 ### 4. Data Processing
 
+The final dataset is achieved by pre-processing the data (such as flattening nested dictionaries etc.) and merging the beacon scanner data and GPS data on timestamp, giving us records of beacon signals with the approximate location coordinates based on the date and time of data collection. 
 
+To account for duplicate records due to potential repeated scanning of the same beacon device, the beacon signals with the same set of UUID, major and minor that are detected within 30 seconds of initial detection are removed. After this reduction, we are left with a dataset consisting of 10,357 records of beacon counts.
+
+The resulting dataset was then merged with census geometries and manufacturing company details. Time spent on each census tract was calculated and reverse Geocoding was applied on this merged dataset to obtain street level address information of each beacon.
+
+### 5. Analysis and Visualizations
+
+With the above dataset, we aim to present beacon activity in public spaces within Manhattan and Brooklyn. Therefore, the data is analyzed to check for insights such as number of unique UUIDs, top UUIDs detected, details on manufacturing companies, mapping of detected beacons, their physical addresses and potential retail stores identification etc. 
+
+To communicate the findings, we used several tools to build effective visualizations. These can be accessed at the links given below: 
+
+#### Beacon Activity Distribution
+
+![
+[Beacon Mapping using Google Maps JavaScript API](https://nbviewer.org/github/claugomzz/iot-capstone/blob/main/Visualization/IoT_Google%20API%20map.html)
+[Geographical Distribution and Nos. of Beacons using D3.js, Plotly JS and Mapbox](https://mlab.engineering.nyu.edu/beacon/iot-capstone/Visualization/Final_Capstone.html)
+[Census Tract level Beacon Distribution using Tableau Dashboard](https://public.tableau.com/app/profile/gexinliu/viz/CensusAgg/1_1?publish=yes)
 
